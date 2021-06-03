@@ -1,0 +1,11 @@
+.about {
+  position: relative;
+  &__abstract {
+    position: absolute;
+    right: 0;
+  }
+  &__desc {
+    text-align: center;
+    line-height: 3rem;
+  }
+}
