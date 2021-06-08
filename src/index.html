@@ -12,7 +12,18 @@
 
     <main class="main">
       @@include('templates/_hero.html') @@include('templates/_about.html')
-      @@include('templates/_news.html') @@include('templates/_contacts.html')
+      @@include('templates/_news.html')
+      <section class="map section">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d750.1736786441388!2d69.15099319573491!3d41.22842286372591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae63d09fc57977%3A0x3b886743cefb6f0c!2sErkin%20Savdo%20Majmuasi!5e0!3m2!1sru!2s!4v1623160433724!5m2!1sru!2s"
+          width="100%"
+          height="100%"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </section>
+      @@include('templates/_contacts.html')
     </main>
 
     @@include('templates/_footer.html')

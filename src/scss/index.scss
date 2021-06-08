@@ -10,6 +10,14 @@
 @import 'layouts/contacts';
 @import 'layouts/footer';
 
+.map {
+  width: 100%;
+  height: 709px;
+}
+
+@import 'pages/news';
+@import 'pages/single-news';
+
 @import 'adaptive/xxl';
 @import 'adaptive/xl';
 @import 'adaptive/lg';
