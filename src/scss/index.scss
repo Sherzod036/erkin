@@ -6,7 +6,11 @@
 @import 'layouts/header';
 @import 'layouts/hero';
 @import 'layouts/about';
+@import 'layouts/video';
+@import 'layouts/benefits';
 @import 'layouts/news';
+@import 'layouts/gallery';
+@import 'layouts/partners';
 @import 'layouts/contacts';
 @import 'layouts/footer';
 
@@ -15,7 +19,9 @@
   height: 709px;
 }
 
+@import 'pages/contacts';
 @import 'pages/news';
+@import 'pages/media';
 @import 'pages/single-news';
 
 @import 'adaptive/xxl';

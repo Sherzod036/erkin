@@ -70,4 +70,8 @@ button {
     color: $primary;
     text-shadow: 2px 3px 0px $secondary;
   }
+  &_light {
+    color: #fff;
+    text-shadow: 2px 3px 0px #0e477c;
+  }
 }
