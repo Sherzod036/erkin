@@ -1,2 +1,17 @@
 @media (max-width: 500px) {
+  .hero {
+    height: 400px;
+  }
+  .hero__sky {
+    height: 400px;
+  }
+  .partner {
+    width: calc(100% - 20px);
+  }
+  .footer__phones {
+    flex-direction: column;
+    & a:first-child {
+      margin-bottom: 25px;
+    }
+  }
 }

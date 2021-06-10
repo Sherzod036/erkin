@@ -1,4 +1,10 @@
 $(function () {
+  const hamb = $('.hamburger')
+  hamb.on('click', () => {
+    hamb.toggleClass('is-active')
+    $('.header__nav').slideToggle().toggleClass('d-block')
+  })
+
   $('.gallery__slider-for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,

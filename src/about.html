@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERKIN | Savdo majmuasi</title>
+    <link rel="stylesheet" href="css/bundle.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    @@include('templates/_header.html')
+
+    <div class="banner" style="background-image: url('../img/banner.jpg')">
+      <div class="banner__container container">
+        <span class="banner__text">Majmua haqida</span>
+      </div>
+    </div>
+
+    <div class="page-about section">
+      <div class="page-about__desc">
+        <div class="container">
+          <p class="page-about__text">
+            "Erkin Savdo Majmuasi" - bu qurilish mollari, maishiy texnika va
+            oziq-ovqat mahsulotlari savdosiga ixtisoslashgan ulkan
+            savdo-qurilish majmuasi. Ushbu loyiha o'z yo'lini 2018-yilda
+            boshlagan bo'lib, savdo va tadbirkorlik uchun zarur bo'lgan
+            sharoitlarni bir joyga va ayniqsa viloyatlik xaridorlar uchun qulay
+            bo'lgan joyga jamlashdek oddiy g'oyadan tug'ilgan. "Erkin Savdo
+            Majmuasi" qurilish materiallari bozori infratuzilmasini yaxshilash
+            yo'lida ildamlamoqda va tadbirkorlarga eng yaxshi va foydali
+            sharoitlarni ta'minlab berish uchun rivojlanishda davom etmoqda.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="page-about__image"
+        style="background-image: url('../img/hero_sky.jpg')"
+      >
+        <div class="page-about__build">
+          <img src="img/page_about_bg.png" alt="" />
+        </div>
+      </div>
+
+      <div class="page-about__texts">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <span class="page-about__title">Lorem ipsum dolor sit amet</span>
+              <p class="page-about__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <span class="page-about__title">Lorem ipsum dolor sit amet</span>
+              <p class="page-about__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      @@include('templates/_benefits.html')
+
+      <div class="page-about__video">
+        <div class="container">
+          <button id="play_button" href="#" class="play_btn">
+            <img src="img/play_btn.png" alt="" />
+          </button>
+          <video id="video" poster="img/poster.jpg">
+            <source src="img/video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
+
+    @@include('templates/_contacts.html') @@include('templates/_footer.html')
+
+    <script src="js/jQ.js"></script>
+    <script src="js/bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

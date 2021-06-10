@@ -1,2 +1,28 @@
 @media (max-width: 768px) {
+  .hero__bot-image {
+    display: none;
+  }
+  .hero {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+  }
+  .hero__title {
+    font-size: 3rem;
+  }
+  .hero__sky {
+    height: 500px;
+  }
+  .title {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    line-height: unset;
+  }
+  .play_btn {
+    width: 85px;
+  }
+  .partner {
+    width: calc(50% - 20px);
+  }
 }
