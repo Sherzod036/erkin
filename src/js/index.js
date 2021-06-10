@@ -56,3 +56,16 @@ $(function () {
     navText: pageMediaArrows
   })
 })
+
+let playButton = document.getElementById('play_button')
+let video = document.getElementById('video')
+playButton.addEventListener('click', function () {
+  if (video.paused == true) {
+    video.play()
+    video.setAttribute('controls', 'controls')
+    playButton.style.display = 'none'
+  } else {
+    video.pause()
+    playButton.style.display = 'block'
+  }
+})

@@ -2,7 +2,25 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  padding-top: 130px;
+  padding-top: 70px;
+  margin-top: 80px;
+  &__circle {
+    width: 457px;
+    height: 457px;
+    background: #ffdb00;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    &_colored {
+      left: -250px;
+    }
+    &_bordered {
+      background: $primary;
+      border: 15px solid #ffdb00;
+      right: 0;
+    }
+  }
   &__title {
     text-transform: uppercase;
     color: #fff;
